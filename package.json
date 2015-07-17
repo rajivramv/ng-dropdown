@@ -1,0 +1,25 @@
+{
+  "name": "ng-dropdown",
+  "version": "0.1.0",
+  "description": "A simple angular drop down to select font size of a text area.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajivramv/ng-dropdown"
+  },
+  "keywords": [
+    "angular",
+    "dropdown",
+    "font",
+    "size"
+  ],
+  "author": "Rajiv Ram V <rajivram.v@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajivramv/ng-dropdown/issues"
+  },
+  "homepage": "https://github.com/rajivramv/ng-dropdown"
+}

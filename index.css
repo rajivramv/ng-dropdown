@@ -1,0 +1,56 @@
+div.dropdown-container {
+	position:	relative;
+	display: inline-block;
+}
+button.dropdown-button {
+	background-color: #ed1b24;
+	color: #ffece9;
+	border: none;
+	line-height: 2em;
+	z-index: 1
+}
+ul.dropdown{
+	width: 100%;
+	background-color: #ed1b24;
+	position: 	absolute;
+	top: 		100%;
+	left: 		0%;
+	list-style: none;
+	padding:	0;
+	margin:		0;
+	text-align: center;
+	font-size: 	0.8em;
+}
+ul.dropdown > li {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	border-top: 1px solid #ffece9;
+	color: #ffece9;
+}
+ul.dropdown > li:not(:first-of-type) {
+
+}
+ul.dropdown.ng-hide-add, 
+ul.dropdown.ng-hide-remove {
+	-webkit-transition: 0s linear all;
+  	transition: 0s linear all;
+}
+ul.dropdown.ng-hide-add-active,
+ul.dropdown.ng-hide-remove-active {
+	-webkit-transition: 0.2s ease all;
+  	transition: 0.2s ease all;
+}
+
+ul.dropdown.ng-hide {
+  opacity: 0;
+  top: 0%;
+}
+div.foo.font-normal {
+	font-size: 1em;
+}
+div.foo.font-lg {
+	font-size: 1.3em;
+}
+div.foo.font-2x {
+	font-size: 1.8em;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "ng-dropdown",
+  "main": "index.html",
+  "version": "0.1.0",
+  "authors": [
+    "Rajiv Ram V <rajivram.v@gmail.com>"
+  ],
+  "description": "A simple angular drop down to select font size of a text area.",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "dropdown",
+    "fontsize",
+    "drop",
+    "down",
+    "font",
+    "size"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rajivramv/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.4.3",
+    "angular": "~1.4.3",
+    "font-awesome": "~4.3.0"
+  }
+}
